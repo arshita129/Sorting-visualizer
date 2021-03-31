@@ -1,0 +1,18 @@
+#bar-container{
+    border: 1px lightblue solid;
+    text-align: center;
+}
+.yellow-class{
+    animation: mymoveyellow 2s;
+}
+@keyframes mymoveyellow {
+    from {background-color: red;}
+    to {background-color: yellow;}
+  }
+.purple-class{
+    animation: mymovepurple 2s;
+}
+@keyframes mymovepurple {
+    from {background-color: red;}
+    to {background-color: purple;}
+}
